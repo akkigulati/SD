@@ -36,7 +36,7 @@ function parseHtml(html) {
             mostwic = wick;
             hname = name;
         }
-    }
+    } 
     console.log(hname+":"+mostwic);
     
 
