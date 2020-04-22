@@ -3,6 +3,7 @@ let fs = require("fs");
 let cheerio = require("cheerio");
 //req("https://www.google.com", function (err, res, html) {
 
+
 req("https://www.espncricinfo.com/scores/series/19322", function (err, res, html) {
     if (res.statusCode == 200 && err == null) {
         //  fs.writeFile("index.html", html, function () {
@@ -36,6 +37,7 @@ function parseHtml(html) {
     }
 
 }
+
 let count = 0;
 let leaderboard = [];
 function goto(link) {
