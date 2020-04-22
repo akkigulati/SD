@@ -1,18 +1,8 @@
-
 // search for email-box
-
 //input email
-
-
-
 //search for password box
-
 //input password
-
-
-
 //search for sign-in button
-
 //click sig-in
 require("chromedriver")
 
