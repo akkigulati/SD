@@ -1,1 +1,1 @@
-node selenium.js "credentialsFile.JSON" "metadata.JSON" "BPIT - Batch 2"
+node selenium.js "credentialsFile.JSON" "metadata.JSON" 
