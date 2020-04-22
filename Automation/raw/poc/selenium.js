@@ -171,7 +171,16 @@ return allmodulespromise;
 
     console.log(err);
 
-
-
 })
-
+//////////////////////////////////////////////////
+/*.then(function (metadata) {
+    metadata = JSON.parse(metadata);
+    let question = metadata[0];
+    //   let WillOpenQuestionPagePromise = driver.get(question.url);
+    //   return WillOpenQuestionPagePromise;
+    // }).then(function () {
+    //   console.log("Opened Question page");
+    // })
+    // list=> names ,
+    // name => medata.json => question name
+    */
