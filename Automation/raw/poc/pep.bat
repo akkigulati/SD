@@ -1,1 +1,1 @@
-node selenium.js "credentialsFile.JSON" "metadata.JSON"   
+node selenium3.js "credentialsFile.JSON" "metadata.JSON"   
