@@ -1,0 +1,1 @@
+node createChallenge.js Credentials.json "./questions.js"
