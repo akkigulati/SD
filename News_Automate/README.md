@@ -9,3 +9,4 @@ Data will be stored in News.json file.
 Second part of script include successfully loging in facebook & then posting the news one by one which includes headline with Link and uploading image of the news.
 **(Please modify FBCredential.json before running the script)**
 
+#### This project can be helpful for those who writes daily news related blogs.
