@@ -13,7 +13,7 @@ let request = require("request");
         tabs = await browser.pages();
         let newsUrl = process.argv[2]
         let num = process.argv[3]
-
+        //SCRAPPING  NEWS
         news = await fetchNews(tabs, newsUrl, num)
         console.log(news);
         //STORING NEWS DATA IN NEWS.JSON FILE
@@ -29,7 +29,7 @@ let request = require("request");
     }
 })();
 
-//SCRAPPING  NEWS
+//SCRAPPING  NEWS FUNCTION
 async function fetchNews(tab, url, num) {
 
     tab = tab[0];
