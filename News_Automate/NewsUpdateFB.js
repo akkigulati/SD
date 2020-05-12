@@ -73,7 +73,7 @@ async function fetchNews(tab, url, num) {
         }, pictag[0]);
         //console.log(src);
 
-        //Downloading image of the news
+        //DOWNLOADING IMG OF THE NEWS
         await download(src, `image${i}.jpeg`, function () {
             console.log("Image downloaded");
         });
