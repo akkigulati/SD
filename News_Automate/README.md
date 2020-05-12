@@ -1,5 +1,5 @@
 # NewsFb_Automate
-I have implemented an automation script using puppeteer and NodeJS.It consists of two parts:
+I have implemented an automation script using puppeteer and NodeJS. It consists of two parts:
 
 ## News Scrap
 It will scrap the details of the top N trending news like headline & Link to the news and downloads the image.
