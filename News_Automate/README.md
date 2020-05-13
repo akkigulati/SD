@@ -2,7 +2,7 @@
 I have implemented an automation script using puppeteer and NodeJS. It consists of two parts:
 
 ## News Scrap
-It will scrap the details of the top N trending news like headline & Link of the news and downloads the related image.
+It will scrap the details of the top N trending news from indiatoday website like headline & Link of the news and downloads the related image.
 Data will be stored in News.json file.
 
 ## Facebook Automate
