@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+     <div class="menu">Menu</div>
+     <div class="menu-options">Menu Options</div>
+     <div class="formula-bar">Formula Bar<input type="text" id="address-container"><input type="text"></div>
+     <div class="cell-container">
+     <div class="top-left-cell" id="top-left-cell"></div>
+     <div class="top-row" id="top-row">
+         <%for(let j=0;j<=cols;j++){%>
+            <div class="cell">
+                <%=String.fromCharCode(j+65)%>
+            </div>
+            <%}%>
+     </div>
+     <div class="left-col" id="left-col">
+        <%for(let i=1;i<=rows;i++){%>
+            <div class="cell">
+                <%=i%>
+            </div>
+            <%}%>
+     </div>
+     <div class="grid" id="grid">
+         <%for(let i=0;i<=rows;i++){%>
+            <div class="row">
+                <%for(let j=0;j<=cols;j++){%>
+                    <div class="cell" contenteditable="true" ri=<%=i%> ci=<%=j%> >
+                        
+                    </div>
+                    <%}%>
+            </div>
+            <%}%>
+     </div>
+     </div>
+     <div class="sheets">sheets</div>
+     <script src="index.js"></script>
+     </body>
+</html>
