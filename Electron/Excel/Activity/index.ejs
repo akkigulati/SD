@@ -6,8 +6,19 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-     <div class="menu">Menu</div>
-     <div class="menu-options">Menu Options</div>
+     <div class="menu">
+     <div class="menu-item ib" id="File">File</div>
+     <div class="menu-item ib" id="Home">Home</div>
+    </div>
+     <div class="menu-options">
+         <div id="File-options" class="menu-options-item">
+            <div id="New" class="ib">New</div>
+            <div id="Open" class="ib">Open</div>
+            <div id="Save" class="ib">Save</div>
+            <input type="file" name="" id="File-saver">
+         </div>
+         <div id="Home-options" class="menu-options-item">Home Options</div>
+     </div>
      <div class="formula-bar">Formula Bar<input type="text" id="address-container"><input type="text"></div>
      <div class="cell-container">
      <div class="top-left-cell" id="top-left-cell"></div>
@@ -41,3 +52,4 @@
      <script src="index.js"></script>
      </body>
 </html>
+
